@@ -82,10 +82,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 150 * i);
   });
 
-  /* ---------- Log simples de cliques no CTA (apenas informativo, sem coleta externa) ---------- */
+  /* ---------- Log de cliques no CTA (Pronto para integrar pixels de anúncios) ---------- */
   document.querySelectorAll('a[href*="adcash.myadcash.com"]').forEach(link => {
     link.addEventListener('click', () => {
-      console.log('[MonetizeCerto] Clique no link de cadastro Adcash registrado localmente.');
+      console.log('[monetizeseusite.pytksolutions.com.br] Redirecionando usuário para o registro oficial Adcash.');
     });
   });
 
